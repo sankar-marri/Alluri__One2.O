@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#092b66" />
+    <title>Alluri ONE — Digital Governance Platform</title>
+    <meta name="description" content="Alluri ONE is an integrated digital platform for citizens, villages, districts and the world." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav container" aria-label="Main navigation">
+        <a class="brand" href="#" aria-label="Alluri ONE home">
+          <span class="brand-mark">A1</span>
+          <span><b>ALLURI ONE</b><small>District Digital Mission</small></span>
+        </a>
+        <div class="nav-links">
+          <a href="#roadmap">Roadmap</a>
+          <a href="#services">Services</a>
+          <a href="#impact">Impact</a>
+        </div>
+        <button class="nav-cta" type="button">Citizen Login</button>
+      </nav>
+
+      <div class="hero-content container">
+        <div class="hero-copy">
+          <p class="eyebrow">Empowering every citizen · From village to world</p>
+          <h1>ALLURI ONE</h1>
+          <p class="hero-tagline">Integrated. Inclusive. Intelligent.</p>
+          <div class="title-ribbon">Project Roadmap</div>
+          <p class="hero-subtitle">A complete digital platform for every stage of life</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#roadmap">Explore the roadmap <span>→</span></a>
+            <button class="button button-glass" type="button" id="watchIntro">▶ &nbsp; Watch introduction</button>
+          </div>
+        </div>
+
+        <aside class="district-card" aria-label="Alluri Sitarama Raju District progress">
+          <div class="district-card__top">
+            <span class="live-dot"></span>
+            <span>Digital Mission</span>
+          </div>
+          <h2>Alluri Sitarama Raju</h2>
+          <p>District</p>
+          <div class="progress-track"><span></span></div>
+          <small>Phase 8 · 72% transformation</small>
+        </aside>
+      </div>
+    </header>
+
+    <main>
+      <section class="roadmap-section" id="roadmap">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="kicker">36-week execution plan</p>
+              <h2>Building the future, one phase at a time</h2>
+            </div>
+            <div class="phase-count"><strong>9</strong><span>delivery<br />phases</span></div>
+          </div>
+
+          <div class="roadmap" id="roadmapList"></div>
+        </div>
+      </section>
+
+      <section class="features-section" id="services">
+        <div class="container feature-grid">
+          <article class="feature-card">
+            <span class="feature-icon">✦</span>
+            <div><p class="kicker">Key features</p><h3>One platform. Every need.</h3></div>
+            <ul>
+              <li>Gram to international services</li>
+              <li>Jobs and schemes discovery</li>
+              <li>Real-time grievance tracking</li>
+              <li>Secure document vault</li>
+            </ul>
+          </article>
+
+          <article class="feature-card tech-card">
+            <span class="feature-icon">⬡</span>
+            <div><p class="kicker">Technology stack</p><h3>Built for scale</h3></div>
+            <div class="tech-pills">
+              <span>React</span><span>Node.js</span><span>PostgreSQL</span><span>Cloud</span>
+            </div>
+          </article>
+
+          <article class="feature-card" id="impact">
+            <span class="feature-icon">↗</span>
+            <div><p class="kicker">Success metrics</p><h3>Designed for impact</h3></div>
+            <div class="metric"><strong data-count="100">0</strong><span>% digital service access</span></div>
+            <div class="metric"><strong data-count="24">0</strong><span>/7 citizen support</span></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="reach-section">
+        <div class="container reach-grid">
+          <p>For every citizen<br /><b>From newborn to elderly</b></p>
+          <p>For every village<br /><b>Gram Panchayat to mandal</b></p>
+          <p>For every region<br /><b>District to nation</b></p>
+          <p>For the world<br /><b>Global digital services</b></p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer-inner">
+        <div class="footer-brand"><strong>ALLURI ONE</strong><span>Connecting people. Empowering lives.</span></div>
+        <div class="footer-values"><span>Build</span><i>·</i><span>Serve</span><i>·</i><span>Empower</span></div>
+      </div>
+    </footer>
+
+    <dialog id="introDialog">
+      <button class="dialog-close" aria-label="Close">×</button>
+      <p class="kicker">Alluri ONE</p>
+      <h2>One platform. Every citizen.</h2>
+      <p>Access government services, jobs, health support, education, opportunities and local governance through a unified, inclusive digital experience.</p>
+      <a class="button button-primary" href="#roadmap">View implementation plan</a>
+    </dialog>
+
+    <script src="script.js"></script>
+  </body>
+</html>
